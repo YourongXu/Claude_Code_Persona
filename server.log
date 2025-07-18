@@ -1,0 +1,11 @@
+Starting server with AI-powered smart analysis...
+Server running on http://127.0.0.1:8080
+Also accessible at http://localhost:8080
+✅ Using Gemini API for analysis (with local fallback)
+🔑 API Key configured successfully
+Please open one of these URLs in your browser to use the tool
+Received analysis request
+Trying Gemini API...
+Gemini API request successful
+Received SIGTERM. Graceful shutdown...
+Server closed.
