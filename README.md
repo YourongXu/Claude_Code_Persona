@@ -7,11 +7,6 @@ An intelligent UX research analysis tool that automatically transforms user inte
 - 🤖 **AI-Powered Analysis**: Utilizes Google Gemini API for intelligent text analysis with local fallback
 - 📊 **Persona Generation**: Creates comprehensive user personas with demographic info, goals, and pain points
 - 🎯 **Problem Identification**: Automatically extracts and categorizes user problems by severity
-- 💭 **Emotional Insights**: Detects user emotions and their intensity levels
-- 💬 **Key Quote Extraction**: Identifies and highlights important user statements
-- 📤 **Export Functionality**: Export analysis results in JSON format
-- 🖼️ **Visual Personas**: Generates AI-powered portrait images for created personas
-- 📱 **Responsive Design**: Works seamlessly on desktop and mobile devices
 
 ## Project Architecture
 
