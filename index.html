@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UX Interview Analysis Tool</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>UX Interview Analysis Tool</h1>
+            <p>Automatically transform user interview content into structured insights and personas</p>
+        </header>
+
+        <main>
+            <section class="upload-section">
+                <div class="upload-area">
+                    <h2>Upload Interview Content</h2>
+                    <!-- API Key configured on server side -->
+                    <div class="file-upload">
+                        <input type="file" id="file-upload" accept=".txt,.doc,.docx" style="display: none;">
+                        <button id="upload-btn" class="btn-primary">Choose File</button>
+                        <span id="file-name"></span>
+                    </div>
+                    <div class="text-input">
+                        <textarea id="interview-text" placeholder="Or paste interview content directly..."></textarea>
+                    </div>
+                    <button id="analyze-btn" class="btn-analyze" disabled>Start Analysis</button>
+                </div>
+            </section>
+
+            <section class="results-section" id="results-section" style="display: none;">
+                <div class="insights-grid">
+                    <div class="insight-card persona-card">
+                        <div id="persona" class="insight-content"></div>
+                    </div>
+                </div>
+                
+                <div class="actions">
+                    <button id="export-btn" class="btn-secondary">Export Results</button>
+                    <button id="new-analysis-btn" class="btn-primary">New Analysis</button>
+                </div>
+            </section>
+        </main>
+
+        <div id="loading" class="loading" style="display: none;">
+            <div class="spinner"></div>
+            <p>Analyzing interview content...</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
